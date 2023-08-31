@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="whole">
+        <div class="weather">
+        
+        <h1>Welcome to <span> Weather App</span></h1>
+        <div id="mode-toggle">
+        
+            <span id="moon">🌙</span>
+        </div>
+        </div>
+        <div class="search">
+            <input type="text" id="city" placeholder="Enter city name...">
+            <button id="searchButton">Search</button>
+        </div>
+        <div id="weatherInformation" class="weather-info">
+           <h1>🌤</h1>
+        </div>
+        
+        <div id="forecastContainer" class="forecast-container forecast-card"></div>
+      
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
